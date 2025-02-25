@@ -68,7 +68,7 @@ const restaurants = [
 const App = () => {
   return (
     <div className="container">
-      <h1 className="title">Top Restaurants in NYC</h1>
+      <h1 className="title">Must Try Restaurants in NYC</h1>
       <div className="card-container">
         {restaurants.map((restaurant, index) => (
           <RestaurantCard key={index} {...restaurant} />
